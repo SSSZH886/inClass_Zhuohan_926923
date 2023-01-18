@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">inClass_Zhuohan_926923</string>
+    <string name="button_log">Log Cat</string>
+    <string name="button_toast">Toast</string>
+</resources>
