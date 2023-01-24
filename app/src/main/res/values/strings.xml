@@ -2,4 +2,26 @@
     <string name="app_name">inClass_Zhuohan_926923</string>
     <string name="button_log">Log Cat</string>
     <string name="button_toast">Toast</string>
+    <string name="title_activity_in_class01">InClass01</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="button_Inclass_01">InClass_01</string>
+    <string name="TextView_title">Body Mass Index (BMI)</string>
+    <string name="TextView_weight">Weight</string>
+    <string name="TextView_height">Height</string>
+    <string name="TextView_lb">lb</string>
+    <string name="TextView_feet">feet</string>
+    <string name="TextView_Inches">inches</string>
+    <string name="button_calculate">Calculate BMI</string>
+    <string name="hint_weight">Your weight in pounds</string>
+    <string name="hint_height">feet</string>
+    <string name="hint_inches">Inches</string>
+    <string name="TextView_Result">Click on  Calculate BMI to find your BMI</string>
+    <string name="button_practice">Practice</string>
 </resources>
