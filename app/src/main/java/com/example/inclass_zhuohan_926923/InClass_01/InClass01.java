@@ -1,18 +1,15 @@
-package com.example.inclass_zhuohan_926923;
+package com.example.inclass_zhuohan_926923.InClass_01;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import java.sql.BatchUpdateException;
+import com.example.inclass_zhuohan_926923.R;
 
 public class InClass01 extends AppCompatActivity {
 
@@ -68,9 +65,9 @@ public class InClass01 extends AppCompatActivity {
                             return_result.setText("Your BMI : " + BMI + ".\nYour are Obese");
                         }else if(BMI >= 25 && BMI <= 29.9){
                             return_result.setText("Your BMI : " + BMI + ".\nYour are Overweight");
-                        }else if(BMI > 18.5 && BMI <= 24.9){
+                        }else if(BMI >= 18.5 && BMI <= 24.9){
                             return_result.setText("Your BMI : " + BMI + ".\nYour are Normal Weight");
-                        }else if(BMI <= 18.5){
+                        }else if(BMI < 18.5){
                             return_result.setText("Your BMI : " + BMI + ".\nYour are Underweight");
                         }
                         Toast.makeText(InClass01.this,"BMI Calculated!", Toast.LENGTH_LONG).show();

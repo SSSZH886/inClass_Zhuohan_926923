@@ -1,4 +1,4 @@
-package com.example.inclass_zhuohan_926923;
+package com.example.inclass_zhuohan_926923.Practice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.inclass_zhuohan_926923.R;
 
 public class PracticeActivity extends AppCompatActivity {
     private Button button_log;

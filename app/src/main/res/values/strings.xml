@@ -24,4 +24,13 @@
     <string name="hint_inches">Inches</string>
     <string name="TextView_Result">Click on  Calculate BMI to find your BMI</string>
     <string name="button_practice">Practice</string>
+    <string name="button_InClass_02">InClass_02</string>
+    <string name="TextView_Name">Name</string>
+    <string name="TextView_Email">Email</string>
+    <string name="TextView_I_Use">I use</string>
+    <string name="RadioButton_Android">Android</string>
+    <string name="RadioButton_iOS">iOS</string>
+    <string name="TextView_Mood">"Your current mood: "</string>
+    <string name="TextView_Moodd">Happy</string>
+    <string name="Button_Submit">Submit</string>
 </resources>
