@@ -9,6 +9,10 @@ import android.widget.Button;
 
 import com.example.inclass_zhuohan_926923.InClass_01.InClass01;
 import com.example.inclass_zhuohan_926923.InClass_02.InClass02;
+import com.example.inclass_zhuohan_926923.InClass_03.DisplayFragment;
+import com.example.inclass_zhuohan_926923.InClass_03.EditProfileFragment;
+import com.example.inclass_zhuohan_926923.InClass_03.InClass03;
+import com.example.inclass_zhuohan_926923.InClass_03.SelectAvatarFragment;
 import com.example.inclass_zhuohan_926923.Practice.PracticeActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonInClass01;
 
     private Button buttonInClass_02;
+
+    private Button buttonInClass_03;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         buttonPractice = findViewById(R.id.button);
         buttonInClass01 = findViewById(R.id.button_Inclass_01);
         buttonInClass_02 = findViewById(R.id.button_InClass_02);
-
+        buttonInClass_03 = findViewById(R.id.button_toInClass03);
 
 
         buttonPractice.setOnClickListener(new View.OnClickListener() {
@@ -58,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
                         InClass02.class);
 
                 startActivity(toInClass02Activity);
+            }
+        });
+
+        buttonInClass_03.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent toInClass03Activity = new Intent(MainActivity.this,
+                        InClass03.class);
+
+                startActivity(toInClass03Activity);
             }
         });
     }

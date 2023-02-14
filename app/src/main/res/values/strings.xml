@@ -33,4 +33,6 @@
     <string name="TextView_Mood">"Your current mood: "</string>
     <string name="TextView_Moodd">Happy</string>
     <string name="Button_Submit">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
