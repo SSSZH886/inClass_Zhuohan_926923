@@ -35,4 +35,23 @@
     <string name="Button_Submit">Submit</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="categories">
+        <item>categories</item>
+        <item>business</item>
+        <item>entertainment</item>
+        <item>general</item>
+        <item>health</item>
+        <item>science</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>countries</item>
+        <item>us</item>
+        <item>cn</item>
+        <item>ca</item>
+        <item>tw</item>
+        <item>sg</item>
+    </string-array>
 </resources>

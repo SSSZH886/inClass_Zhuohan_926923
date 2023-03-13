@@ -3,7 +3,6 @@ package com.example.inclass_zhuohan_926923.InClass_03;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.provider.ContactsContract;
 
 import com.example.inclass_zhuohan_926923.R;
 
@@ -15,7 +14,7 @@ public class InClass03 extends AppCompatActivity implements IntefaceToInclass03A
         setContentView(R.layout.activity_in_class03);
 
         getSupportFragmentManager().beginTransaction()
-                .add(R.id.ContainerFragment, EditProfileFragment.newInstance(), "EditProfile")
+                .add(R.id.InClass06_containerFragment, EditProfileFragment.newInstance(), "EditProfile")
                 .addToBackStack(null)
                 .commit();
     }
@@ -42,7 +41,7 @@ public class InClass03 extends AppCompatActivity implements IntefaceToInclass03A
     @Override
     public void submitButtonClickedInEditProfile(Profile profile){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.ContainerFragment, DisplayFragment.newInstance(profile), "Display")
+                .replace(R.id.InClass06_containerFragment, DisplayFragment.newInstance(profile), "Display")
                 .addToBackStack(null)
                 .commit();
     }
@@ -51,7 +50,7 @@ public class InClass03 extends AppCompatActivity implements IntefaceToInclass03A
     @Override
     public void selectAvtarClickedInEditProfile(){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.ContainerFragment, SelectAvatarFragment.newInstance(), "SelectAvatar")
+                .replace(R.id.InClass06_containerFragment, SelectAvatarFragment.newInstance(), "SelectAvatar")
                 .addToBackStack(null)
                 .commit();
     }
