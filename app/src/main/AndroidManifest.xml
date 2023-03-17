@@ -15,6 +15,18 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".inClass07_Display"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07_main"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07_Register"
+            android:exported="false" />
+        <activity
+            android:name=".InClass07_Login"
+            android:exported="false" />
+        <activity
             android:name=".InClass_06.InClass_06"
             android:exported="false" />
         <activity
@@ -25,10 +37,9 @@
             android:exported="false" />
         <activity
             android:name=".InClass_03.InClass03"
-            android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".InClass_03.DisplayFragment$InClass03"-->
-<!--            android:exported="false" />-->
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".InClass_03.DisplayFragment$InClass03" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".InClass_02.Display"
             android:exported="false" />
