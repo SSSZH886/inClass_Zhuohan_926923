@@ -18,7 +18,7 @@
             android:name=".inClass07_Display"
             android:exported="false" />
         <activity
-            android:name=".InClass07_main"
+            android:name=".InClass_07.InClass07_main"
             android:exported="false" />
         <activity
             android:name=".InClass07_Register"

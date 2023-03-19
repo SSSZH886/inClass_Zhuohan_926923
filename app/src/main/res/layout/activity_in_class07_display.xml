@@ -7,6 +7,16 @@
     tools:context=".InClass_07.inClass07_Display">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LogoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/InClass07_containerPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,10 +31,10 @@
         android:layout_width="409dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         app:layout_constraintBottom_toTopOf="@+id/InClass07_containerPanel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/LogoutContainer" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
